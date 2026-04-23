@@ -22,7 +22,7 @@ A local-first full-stack web app that generates 5-question MCQ quizzes from past
    - `JWT_SECRET`
    - `PORT` (default `3001`)
    - `CLIENT_ORIGIN` (default `http://localhost:5173`)
-4. Start API: `npm run dev`
+4. Start API: `npm run dev`\n5. Optional for persistent local DB path: set `DATA_DIR` (defaults to `./data`)
 
 ## Frontend Setup
 
@@ -46,6 +46,6 @@ The Vite dev server proxies `/api` to `http://localhost:3001`.
 
 ## Notes
 
-- Server persists data in local NeDB files under `server/data/`.
+- Server persists data in local NeDB files under `server/data/` by default (or `DATA_DIR` if set).
 - Quiz generation requires a valid Anthropic API key.
 - In this environment, package installation/runtime verification was not possible because `npm` was unavailable on PATH.
