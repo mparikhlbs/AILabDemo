@@ -22,7 +22,8 @@ A local-first full-stack web app that generates 5-question MCQ quizzes from past
    - `JWT_SECRET`
    - `PORT` (default `3001`)
    - `CLIENT_ORIGIN` (default `http://localhost:5173`)
-4. Start API: `npm run dev`\n5. Optional for persistent local DB path: set `DATA_DIR` (defaults to `./data`)
+4. Start API: `npm run dev`
+5. Optional for persistent local DB path: set `DATA_DIR` (defaults to `./data`)
 
 ## Frontend Setup
 
